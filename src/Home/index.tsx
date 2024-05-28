@@ -8,13 +8,17 @@ export default function Home() {
 
             <br /><br />
             <p>Please keep the ⬇️ buttons on the page for me for now (wherever you want) -muqing 💛</p>
-            <div  className="d-flex"style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
-                <Link to="/showdetail">
+            <div className="d-flex" style={{ display: 'flex', justifyContent: 'left', gap: '10px' }}>
+                <Link to="/show">
                     <button className="btn btn-primary">Show detail</button>
                 </Link>
-                <Link to="/episodedetail">
+                <Link to="/episode">
                     <button className="btn btn-primary">Episode detail</button>
                 </Link>
+                <Link to="/search">
+                    <button className="btn btn-primary">Search</button>
+                </Link>
+
             </div>
 
 
