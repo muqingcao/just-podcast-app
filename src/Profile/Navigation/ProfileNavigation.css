@@ -1,0 +1,12 @@
+.nav-link.custom-active {
+    background-color: white !important;
+    color: red !important;
+}
+
+.nav-link.custom-active .me-2 {
+    color: red !important;
+}
+
+.fs-3 {
+    font-size: 1.75rem;
+}

@@ -15,6 +15,12 @@ export default function Home() {
                 <Link to="/episodedetail">
                     <button className="btn btn-primary">Episode detail</button>
                 </Link>
+            </div> <br />  <br />
+            <div id="sign-in" className="d-flex">
+                <Link to="/LogIn/SignIn"> SIGN IN  </Link>
+            </div>
+            <div id="profile" className="d-flex">
+                <Link to="/Profile/Profile"> Profile </Link>
             </div>
 
 
