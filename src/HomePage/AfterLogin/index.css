@@ -1,0 +1,108 @@
+.small-icon {
+    width: 80px;
+    height: 80px;
+}
+.icon-text-spacing {
+    margin-left: 8px; 
+  }
+  body {
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: lightblue !important;
+}
+.trending-episodes {
+    padding: 20px;
+    background-color: white
+
+  }
+  
+  .episode {
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    flex: 1 1 calc(16.66% - 16px);
+    margin: 8px;
+    max-width: 200px;
+  }
+  
+  .episode-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px 12px 12px 12px;
+  }
+  
+  .episode-description {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+body {
+    font-family: 'Arial', sans-serif; 
+    color: black !important;
+    background-color: white; 
+    margin: 0; 
+    padding: 0; 
+  }
+  .episode-detail-image {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .episode-detail-content {
+    flex: 1;
+  }
+  
+  .episode-detail-content h5, .episode-detail-content h4 {
+    margin: 0;
+  }
+  
+  .episode-detail-content .d-flex {
+    margin-top: 10px;
+  }
+  
+  .episode-detail-content p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
+  .play-button {
+    font-size: 24px; 
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-signup {
+    background-color: white;
+    color: black;
+    font-weight: bold; 
+    font-size: 18px; 
+    white-space: nowrap;
+  }
+  .dropdown-menu {
+    min-width: 200px; 
+  }
+  
+  .dropdown-item {
+    color: black;
+  }
+  
+  .dropdown-item:hover {
+    background-color: lightblue;
+  }
+  .follow-button {
+    background-color: lightgrey !important;
+    color: white !important;
+}
